@@ -42,9 +42,9 @@ Following arguments mandatory or optional for predict.py
 3.	'--top_k'. 'Top K most likely classes. Optional', type = int
 4.	'--category_names'. 'Mapping of categories to real names. JSON file name to be provided. Optional', type = str
 5.	'--gpu'. "Option to use GPU. Optional", type = str
+.
 
-
-	'''Example: python train.py /path/to/data/directory --arch vgg13 --epochs 3 --learning_rate 0.01'''
+	Example: python train.py /path/to/data/directory --arch vgg13 --epochs 3 --learning_rate 0.01
 	
 `predict.py` follows the same format except there are different parameters in control of the user. Also, `train.py` saves a checkpoint, so the 2 mandatory arguments for `predict.py` are the image to predicted and the checkpoint file containing the trained model.
 	
